@@ -10,6 +10,7 @@ npm install clusterfck
 ```
 Or grab the [browser file](http://harthur.github.com/clusterfck/demos/colors/clusterfck.js)
 
+
 # K-means
 
 ```javascript
@@ -37,21 +38,6 @@ The second argument to `kmeans` is the number of clusters you want (default is `
   [[20,20,80], [22,22,90], [0,30,70], [100,54,100]],
   [[250,255,253]]
 ]
-```
-
-## K-means ++
-
-Advanced initialization algorithm, obtainining an initial set of centroids that is provably close to the optimum solution.
-
-```javascript
-var kMeans = new clusterfck.Kmeans();
-
-var colors = [ [20, 20, 80], [22, 22, 90], [250, 255, 253], [0, 30, 70], [200, 0, 23], [100, 54, 100] ];
-var k = 3; // Number of clusters desired
-var distance = "manhattan"; // Algoritm for calculation of distance between colors
-
-// Calculate clusters with kmeans++ initialization algorithm
-var clusters = kMeans.clusterPlus(colors, k, distance);
 ```
 
 #### Classification
