@@ -1,25 +1,18 @@
 {
-   "name": "clusterfck",
+   "name": "@mr.y/clusterfck",
    "description": "K-means and hierarchical clustering",
    "version": "0.6.0",
-   "author": "Heather Arthur <fayearthur@gmail.com>",
+   "author": "Yermalayeu Aliaksandr <aliaksandr.yermalayeu@gmail.com>",
    "repository": {
       "type": "git",
-      "url": "http://github.com/harthur/clusterfck.git"
+      "url": "http://github.com/aliaksandr-yermalayeu/clusterfck.git"
    },
    "directories": {
       "lib": "./lib"
    },
    "dependencies" : {
-
    },
    "devDependencies": {
-      "uglify-js" : "*",
-      "underscore": "*",
-      "nomnom" : "*",
-      "cradle" : "*",
-      "connect": "*",
-      "browserify": "*"
    },
    "main": "./lib/clusterfck"
 }
